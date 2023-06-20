@@ -1,0 +1,8 @@
+abstraction(interface) in oops
+hasownproperty in generics in splfeatures
+need more clarity on optional chaining (where it is useful) in splfeatures
+
+////Do you need to change your target library? Try changing the 'lib' compiler option to 'es2015' or later
+find(first occurence) in ES6arrays
+set.ts
+map.ts

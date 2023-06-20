@@ -1,0 +1,16 @@
+API
+promise(api).then(logic1(api2)).catch(logic2(api3))
+chaining is very difficult if logic invokes apis and thier logic also apis recursivesly
+this is like multiple infite if else in ternary
+
+this is like recursive function calls with if else blocks
+so we have async and await in ES6
+
+async function example()
+{
+    const response=await fetch(api);
+     if(response.ok)
+     {const second=await fetch(logic1(api2));}
+     else
+     {const second=await fetch(logic2(api3));}
+}
